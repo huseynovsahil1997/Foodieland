@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodieland — Recipes worth cooking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lobster&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#" class="logo" aria-label="Foodieland home">Foodieland<span>.</span></a>
+
+      <nav aria-label="Main">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About us</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a href="#" aria-label="Facebook"><img src="assets/facebook.svg" alt="" /></a></li>
+        <li><a href="#" aria-label="Twitter"><img src="assets/twitter.svg" alt="" /></a></li>
+        <li><a href="#" aria-label="Instagram"><img src="assets/instagram.svg" alt="" /></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- FEATURED RECIPE (HERO) -->
+    <section class="featured" aria-labelledby="featured-title">
+      <div class="container">
+        <article class="hero">
+          <div class="hero-content">
+            <span class="pill">
+              <img src="assets/hot-recipes.png" alt="" width="24" height="24" />
+              Hot Recipes
+            </span>
+
+            <h1 id="featured-title">Spicy delicious chicken wings</h1>
+
+            <p class="hero-desc">
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqut enim ad minim
+            </p>
+
+            <ul class="chips">
+              <li class="chip"><img src="assets/timer.svg" alt="" />30 Minutes</li>
+              <li class="chip"><img src="assets/fork-knife.svg" alt="" />Chicken</li>
+            </ul>
+
+            <div class="hero-footer">
+              <div class="author">
+                <img src="assets/avatar-john.png" alt="" width="50" height="50" />
+                <div>
+                  <p class="author-name">John Smith</p>
+                  <p class="author-date"><time datetime="2022-03-15">15 March 2022</time></p>
+                </div>
+              </div>
+
+              <a href="#" class="btn">
+                View Recipes
+                <img src="assets/play-circle.svg" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <img src="assets/hero-wings.png" alt="Baked chicken wings on a plate with tomato sauce, basil and cherry tomatoes" />
+          </div>
+
+          <div class="badge" role="img" aria-label="Handpicked recipes">
+            <img class="badge-outer" src="assets/badge-outer.svg" alt="" />
+            <div class="badge-ticks"><img src="assets/badge-ticks.svg" alt="" /></div>
+            <img class="badge-inner" src="assets/badge-inner.svg" alt="" />
+            <img class="badge-thumb" src="assets/thumbs-up.png" alt="" width="50" height="50" />
+            <div class="badge-text" aria-hidden="true">
+              <span style="--a:-85.8deg">H</span>
+              <span style="--a:-77.23deg">A</span>
+              <span style="--a:-68.57deg">N</span>
+              <span style="--a:-60.06deg">D</span>
+              <span style="--a:-51.88deg">P</span>
+              <span style="--a:-46.25deg">I</span>
+              <span style="--a:-39.58deg">C</span>
+              <span style="--a:-30.57deg">K</span>
+              <span style="--a:-22.28deg">E</span>
+              <span style="--a:-14.07deg">D</span>
+              <span style="--a:-3.1deg">R</span>
+              <span style="--a:4.64deg">E</span>
+              <span style="--a:13.2deg">C</span>
+              <span style="--a:19.92deg">I</span>
+              <span style="--a:25.7deg">P</span>
+              <span style="--a:33.31deg">E</span>
+              <span style="--a:41.04deg">S</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
